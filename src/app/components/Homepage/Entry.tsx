@@ -13,7 +13,7 @@ export default function Entry() {
         </div>
       </div>
 
-      <div className="absolute bottom-4 animate-bounce flex flex-col items-center gap-2 ">
+      <div className="absolute bottom-12 md:bottom-4 animate-bounce flex flex-col items-center gap-2 ">
         <div className="text-base font-medium">Start Exploring</div>
         <FaArrowDown className="text-2xl" />
       </div>
