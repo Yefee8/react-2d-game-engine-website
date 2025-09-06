@@ -12,10 +12,10 @@ export default function Fast() {
         data-aos="fade-right"
         className="md:w-1/2 flex flex-col gap-4 justify-center items-center"
       >
-        <FcFlashOn className="text-[100px] md:text-[200px] rotate-0" />
-        <FaPlus className="text-[38px] md:text-[75px] text-slate-800 my-8" />
+        <FcFlashOn className="text-[75px] md:text-[200px] rotate-0" />
+        <FaPlus className="text-[30px] md:text-[75px] text-slate-800 my-8" />
 
-        <FaFeatherAlt className="text-[75px] md:text-[150px] text-blue-300" />
+        <FaFeatherAlt className="text-[60px] md:text-[150px] text-blue-300" />
       </div>
 
       <div
