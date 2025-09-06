@@ -8,7 +8,7 @@ export default function OpenSource() {
       className="min-h-screen max-md:justify-center container flex max-md:flex-col items-center gap-4 py-16"
     >
       <div className="md:w-1/2 flex justify-center items-center">
-        <FaCodePullRequest className="text-[200px] md:text-[100px] text-slate-800" />
+        <FaCodePullRequest className="md:text-[200px] text-[100px] text-slate-800" />
       </div>
 
       <div
