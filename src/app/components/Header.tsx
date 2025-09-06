@@ -9,7 +9,7 @@ export default function Header() {
 
   return (
     <header className="w-full border-b-2 border-indigo-500/10 py-3 max-md:px-4 flex justify-center">
-      <div className="container flex gap-4 flex-wrap items-center justify-between">
+      <div className="container flex max-md:flex-col gap-4 flex-wrap items-center justify-between">
         <h1 className="text-2xl font-medium">React 2D Game Engine</h1>
 
         <div className="flex gap-4 flex-wrap items-center">
