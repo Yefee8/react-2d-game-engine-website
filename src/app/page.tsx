@@ -1,4 +1,3 @@
-import Header from "./components/Header";
 import Aos from "./components/Homepage/AOS";
 import Create from "./components/Homepage/Create";
 import EasyToUse from "./components/Homepage/EasyToUse";
@@ -12,7 +11,6 @@ export default function Home() {
     <div className="w-full flex flex-col items-center">
       <Aos />
       <ScrollHelper />
-      <Header />
       <div className="flex flex-col w-full items-center max-md:px-4">
         <Entry />
         <Fast />

@@ -4,13 +4,19 @@ import { FaGithub, FaNpm } from "react-icons/fa6";
 export default function Header() {
   const links = [
     { name: "Demos", href: "/demos" },
-    { name: "Documentation", href: "https://github.com/Yefee8/react-2d-game-engine/blob/master/README.md", target: "_blank" },
+    {
+      name: "Documentation",
+      href: "https://github.com/Yefee8/react-2d-game-engine/blob/master/README.md",
+      target: "_blank",
+    },
   ];
 
   return (
     <header className="w-full border-b-2 border-indigo-500/10 py-3 max-md:px-4 flex justify-center">
       <div className="container flex max-md:flex-col gap-4 flex-wrap items-center justify-between">
-        <h1 className="text-2xl font-medium">React 2D Game Engine</h1>
+        <Link href="/">
+          <h1 className="text-2xl font-medium">React 2D Game Engine</h1>
+        </Link>
 
         <div className="flex gap-4 flex-wrap items-center">
           {links.map((link) => (
